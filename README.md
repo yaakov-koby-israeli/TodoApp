@@ -6,7 +6,6 @@ This app allows users to effortlessly add, delete, and mark tasks as complete, a
 Link to the app --> <a href="https://todoapp-hm0v.onrender.com">TodoApp</a><br>
 
 ### :hammer_and_wrench: Languages and Tools :
-### :hammer_and_wrench: Languages and Tools :
 <div>
   <img src="https://i.pinimg.com/564x/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.jpg" title="Python" alt="Python"  width="50" height="50"/>&nbsp;  
   <img src="https://pbs.twimg.com/profile_images/1786389425678663680/zlm8fLps_400x400.png" title="PyCharm" alt="PyCharm" width="50" height="50"/>&nbsp; 
