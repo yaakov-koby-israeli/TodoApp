@@ -2,7 +2,7 @@
 TodoApp 1.2 is a web application where you can create your own user, log in and manage your own to-do list.<br>
 This app allows users to effortlessly add, delete, upgrade and mark tasks as complete, all within a clean and intuitive interface.<br>
 
-<a href="https://www.example.com">Visit Example Video on YouTube</a><br>
+<a href="https://youtu.be/KumcEet7QKQ">Visit Example Video on YouTube</a><br>
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
