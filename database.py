@@ -2,12 +2,18 @@ import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-# render db
-SQLALCHEMY_DATABASE_URL = 'postgresql://todoapp_database_ntya_user:Pyp3WxpPluK0x6FQ89B5hbjQ6vp1BkY4@dpg-csb4onpu0jms73e35eug-a.frankfurt-postgres.render.com/todoapp_database_ntya'
+
+# FreeSQLDatabase
+# Get the password from environment variables
+DB_PASSWORD = "mj9LSFKn4J"
+
+# Construct the SQLAlchemy connection URL
+SQLALCHEMY_DATABASE_URL = f"mysql+pymysql://sql7753903:{DB_PASSWORD}@sql7.freesqldatabase.com:3306/sql7753903"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
-
-
+# # render db
+# SQLALCHEMY_DATABASE_URL = 'postgresql://todoapp_database_ntya_user:Pyp3WxpPluK0x6FQ89B5hbjQ6vp1BkY4@dpg-csb4onpu0jms73e35eug-a.frankfurt-postgres.render.com/todoapp_database_ntya'
+# engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 # IF USING SQLITE3
 # SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db'
