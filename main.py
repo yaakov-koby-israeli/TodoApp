@@ -1,7 +1,3 @@
-"""
-massage
-"""
-
 from fastapi import FastAPI, Request, status
 from models import Base
 from database import engine
@@ -19,7 +15,6 @@ Base.metadata.create_all(bind=engine) # creating the db -- will run only if db d
 # 4 css + js
 app.mount("/static",StaticFiles(directory="static"),name="static")
 
-
 @app.get("/")
 def test(request: Request):
     return RedirectResponse(url="/todos/todo-page", status_code=status.HTTP_302_FOUND)
@@ -29,7 +24,6 @@ def test(request: Request):
 @app.get("/healthy")
 def health_check():
     return {'status':'Healthy'}
-
 
 app.include_router(auth.router)
 app.include_router(todos.router)
